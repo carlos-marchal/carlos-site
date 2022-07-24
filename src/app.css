@@ -1,0 +1,18 @@
+@import url('./fonts/neue-machina/font.css');
+@import url('./fonts/poppins/font.css');
+
+:root {
+	--black: #000205;
+	--pink: #f5b093;
+	--white: #ffffff;
+
+	--background: var(--black);
+	--highlight: var(--pink);
+	--foreground: var(--white);
+}
+
+body {
+	background: var(--background);
+	color: var(--foreground);
+	font: 16px 'Neue Machina';
+}
