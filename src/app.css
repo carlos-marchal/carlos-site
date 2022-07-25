@@ -16,4 +16,39 @@ body {
 	background: var(--background);
 	color: var(--foreground);
 	font: 16px 'Neue Machina';
+	line-height: 2em;
+	margin: 0;
+	padding: 0;
+}
+
+h1,
+.h1 {
+	font-size: 26px;
+	line-height: 32px;
+}
+
+@keyframes spin {
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+pre {
+	font-family: 'Noto Sans Mono';
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: var(--foreground);
+	--foreground: var(--pink);
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
 }
