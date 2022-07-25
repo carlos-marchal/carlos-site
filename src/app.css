@@ -1,5 +1,6 @@
 @import url('./fonts/neue-machina/font.css');
 @import url('./fonts/poppins/font.css');
+@import url('./fonts/noto-sans-mono/font.css');
 
 :root {
 	--black: #000205;

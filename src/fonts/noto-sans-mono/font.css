@@ -1,0 +1,80 @@
+@font-face {
+  font-family: "Noto Sans Mono";
+  src: url("./normal.900.woff2") format("woff2"),
+    url("./normal.900.woff") format("woff"),
+    url("./normal.900.ttf") format("ttf");
+  font-style: normal;
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "Noto Sans Mono";
+  src: url("./normal.800.woff2") format("woff2"),
+    url("./normal.800.woff") format("woff"),
+    url("./normal.800.ttf") format("ttf");
+  font-style: normal;
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "Noto Sans Mono";
+  src: url("./normal.700.woff2") format("woff2"),
+    url("./normal.700.woff") format("woff"),
+    url("./normal.700.ttf") format("ttf");
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Noto Sans Mono";
+  src: url("./normal.600.woff2") format("woff2"),
+    url("./normal.600.woff") format("woff"),
+    url("./normal.600.ttf") format("ttf");
+  font-style: normal;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Noto Sans Mono";
+  src: url("./normal.500.woff2") format("woff2"),
+    url("./normal.500.woff") format("woff"),
+    url("./normal.500.ttf") format("ttf");
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Noto Sans Mono";
+  src: url("./normal.400.woff2") format("woff2"),
+    url("./normal.400.woff") format("woff"),
+    url("./normal.400.ttf") format("ttf");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Noto Sans Mono";
+  src: url("./normal.300.woff2") format("woff2"),
+    url("./normal.300.woff") format("woff"),
+    url("./normal.300.ttf") format("ttf");
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Noto Sans Mono";
+  src: url("./normal.200.woff2") format("woff2"),
+    url("./normal.200.woff") format("woff"),
+    url("./normal.200.ttf") format("ttf");
+  font-style: normal;
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "Noto Sans Mono";
+  src: url("./normal.100.woff2") format("woff2"),
+    url("./normal.100.woff") format("woff"),
+    url("./normal.100.ttf") format("ttf");
+  font-style: normal;
+  font-weight: 100;
+}
