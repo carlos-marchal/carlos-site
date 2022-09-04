@@ -1,15 +1,4 @@
-<script lang="ts">
-	export let height: string | undefined = undefined;
-	export let width: string | undefined = undefined;
-</script>
-
-<svg
-	viewBox="0 0 184 24"
-	style:height
-	style:width
-	fill="currentColor"
-	xmlns="http://www.w3.org/2000/svg"
->
+<svg viewBox="0 0 184 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
 	<path
 		d="m0 3.618 1.085-1.93L4.341 3.98 3.979 0h2.29l-.361 3.98 3.255-2.292 1.086 1.93L6.63 5.307l3.618 1.688-1.086 1.93-3.255-2.292.362 3.98H3.979l.362-3.98-3.256 2.292L0 6.995l3.617-1.688L0 3.618Z"
 	/>
@@ -41,6 +30,10 @@
 </svg>
 
 <style>
+	svg {
+		height: 20px;
+	}
+
 	path:first-child {
 		transform-box: fill-box;
 		transform-origin: center;
@@ -50,5 +43,11 @@
 
 	svg:hover path:first-child {
 		animation-play-state: running;
+	}
+
+	@media (min-width: 800px) {
+		svg {
+			height: 38px;
+		}
 	}
 </style>
