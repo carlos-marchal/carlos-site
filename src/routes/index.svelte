@@ -64,7 +64,7 @@
 	}
 
 	.intro {
-		margin: 40px 0 100px 0;
+		margin: 40px 0;
 		font-size: 22px;
 		max-width: 900px;
 		flex-grow: 1;
@@ -79,7 +79,7 @@
 		grid-auto-rows: 100px;
 		grid-template-columns: 1fr 1fr;
 		gap: 15px;
-		margin: 50px 0;
+		margin: 30px 0;
 	}
 
 	@keyframes appear {
