@@ -11,7 +11,7 @@
 		Hello! I'm Carlos Marchal. A Chief Technology Officer & Software Engineer who's passionate about
 		building software.
 	</div>
-	<div class="marquee">Born & raised in Barcelona</div>
+	<div class="marquee">Some cool sounding motivational bullshit</div>
 </ScrollHijacker>
 
 <style>
