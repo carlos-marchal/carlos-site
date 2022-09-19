@@ -18,4 +18,10 @@
 		transform: translateY(-50%);
 		text-transform: uppercase;
 	}
+
+	@media (min-width: 800px) {
+		div {
+			font-size: 150px;
+		}
+	}
 </style>
