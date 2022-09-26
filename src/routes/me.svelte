@@ -4,6 +4,7 @@
 	import Haddock from '$lib/me/haddock.svelte';
 	import YC from '$lib/me/yc.svelte';
 	import Skills from '$lib/me/skills.svelte';
+	import Footer from '$lib/me/footer.svelte';
 </script>
 
 <Intro />
@@ -11,4 +12,4 @@
 <Haddock />
 <YC />
 <Skills />
-<div style:height="200vh" />
+<Footer />
