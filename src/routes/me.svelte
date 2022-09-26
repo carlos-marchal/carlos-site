@@ -3,10 +3,12 @@
 	import Timeline from '$lib/me/timeline.svelte';
 	import Haddock from '$lib/me/haddock.svelte';
 	import YC from '$lib/me/yc.svelte';
+	import Skills from '$lib/me/skills.svelte';
 </script>
 
 <Intro />
 <Timeline />
 <Haddock />
 <YC />
+<Skills />
 <div style:height="200vh" />
