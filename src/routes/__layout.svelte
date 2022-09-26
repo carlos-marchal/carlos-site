@@ -1,7 +1,7 @@
 <script lang="ts">
 	import '../app.css';
 	let taps = 0;
-	$: show = taps > 10;
+	$: show = taps >= 5 || import.meta.env.DEV;
 </script>
 
 {#if show}
