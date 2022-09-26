@@ -4,9 +4,9 @@
 </script>
 
 <ScrollHijacker height="400vh" threshold={0.25}>
-	<div class="logo">
+	<a href="/" class="logo">
 		<Logo />
-	</div>
+	</a>
 	<div class="content">
 		Hello! I'm Carlos Marchal. A Chief Technology Officer & Software Engineer who's passionate about
 		building software.
@@ -16,6 +16,7 @@
 
 <style>
 	.logo {
+		color: inherit;
 		position: absolute;
 		top: 50px;
 		left: 35px;
