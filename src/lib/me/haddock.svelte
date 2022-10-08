@@ -6,8 +6,12 @@
 	<div class="intro">
 		<header>haddock</header>
 		<div>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel risus in ante posuere
-			fermentum. Sed ut rhoncus sapien. Suspend.
+			<p>
+				My co-founders and I started haddock 3 years ago at the height of the pandemic. We wanted to
+				help restaurants take control of their bookkeeping. For lots of them, staying open or having
+				to close came down to optimising to the last cent.
+			</p>
+			<p>Check out what we do in depth:</p>
 			<div class="cta">
 				<ButtonLink href="https://en.haddock.app">
 					Go to haddock<span slot="hover">https://en.haddock.app</span>
@@ -16,10 +20,10 @@
 		</div>
 	</div>
 	<ul>
-		<li><span>2020</span><span>fundado durante la pandemia en pleno confinamiento.</span></li>
-		<li><span>2020</span><span>fundado durante la pandemia en pleno confinamiento.</span></li>
-		<li><span>2020</span><span>fundado durante la pandemia en pleno confinamiento.</span></li>
-		<li><span>2020</span><span>fundado durante la pandemia en pleno confinamiento.</span></li>
+		<li><span>1000</span><span>paying customers across Southern Europe and LATAM</span></li>
+		<li><span>$50k</span><span>of monthly recurring revenue</span></li>
+		<li><span>$2M</span><span>in total external funding</span></li>
+		<li><span>35+</span><span>employees on the haddock team</span></li>
 	</ul>
 </section>
 

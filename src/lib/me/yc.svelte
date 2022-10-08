@@ -24,12 +24,21 @@
 
 	<div class="main">
 		<img src={yc} alt="Y Combinator logo" height="100" width="100" />
-		<div class="subtitle">2022</div>
+		<div class="subtitle">W22</div>
 		<div class="title">Y Combinator</div>
 		<div class="content">
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel risus in ante posuere
-			fermentum. Sed ut rhoncus sapien. Suspendisse potenti. Proin eget finibus nibh. Integer justo
-			magna, vehicula nec orci in, congue porta augue. Sed augue urna, ultrices id dignissim.
+			<p>
+				We were admitted to the winter 2022 batch at Y Combinator, the largest startup accelerator
+				in the world. It was an amazing experience that helped us grow our business exponentially.
+			</p>
+			<p>
+				It was also, however, the thing that made me realize I was at the end of my journey with
+				haddock.
+			</p>
+			<p>
+				It was time to refocus myself on engineering and building great software, rather than being
+				an executive and growing a business.
+			</p>
 		</div>
 	</div>
 	<div class="gallery">

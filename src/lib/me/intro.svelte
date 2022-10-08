@@ -8,10 +8,11 @@
 		<Logo />
 	</a>
 	<div class="content">
-		Hello! I'm Carlos Marchal. A Chief Technology Officer & Software Engineer who's passionate about
-		building software.
+		Hello! My name is Carlos Marchal. I'm a software engineer who's passionate about building great
+		software. I'm currently working as co-founder and CTO at haddock, but I'm already looking for my
+		next adventure!
 	</div>
-	<div class="marquee">Some cool sounding motivational bullshit</div>
+	<div class="marquee">Let's take 2 minutes to get to know me</div>
 </ScrollHijacker>
 
 <style>

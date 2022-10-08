@@ -1,38 +1,38 @@
 <script lang="ts">
 	const skills = [
 		{
-			progress: 0.9,
-			title: 'Sample skill',
+			progress: 0.95,
+			title: 'Coding',
 			content:
-				'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel varius ipsum. Mauris eros metus,'
-		},
-		{
-			progress: 0.5,
-			title: 'Sample skill',
-			content:
-				'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel varius ipsum. Mauris eros metus,'
-		},
-		{
-			progress: 0.3,
-			title: 'Sample skill',
-			content:
-				'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel varius ipsum. Mauris eros metus,'
+				"As many developers do, I started coding as a young teen. I've worked with all kinds of languages and paradigms: static types, dinamic types, compiled, interpreted, object oriented, functional... What's important is choosing the right tool for the job, and writing clean and idiomatic code."
 		},
 		{
 			progress: 0.9,
-			title: 'Sample skill',
+			title: 'Fullstack',
 			content:
 				'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel varius ipsum. Mauris eros metus,'
 		},
 		{
-			progress: 0.5,
-			title: 'Sample skill',
+			progress: 0.8,
+			title: 'Systems design',
 			content:
 				'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel varius ipsum. Mauris eros metus,'
 		},
 		{
-			progress: 0.3,
-			title: 'Sample skill',
+			progress: 0.7,
+			title: 'Behaviour driven',
+			content:
+				'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel varius ipsum. Mauris eros metus,'
+		},
+		{
+			progress: 0.8,
+			title: 'Team worker',
+			content:
+				'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel varius ipsum. Mauris eros metus,'
+		},
+		{
+			progress: 0.7,
+			title: 'Product centered',
 			content:
 				'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel varius ipsum. Mauris eros metus,'
 		}
@@ -40,7 +40,7 @@
 </script>
 
 <section>
-	<header>Skills</header>
+	<header>My Skills</header>
 	<ul>
 		{#each skills as { progress, title, content }}
 			<li>
