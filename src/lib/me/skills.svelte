@@ -61,7 +61,7 @@
 	}
 
 	header {
-		font-size: 22px;
+		font-size: 25px;
 		margin: 15px 0;
 	}
 
@@ -80,7 +80,7 @@
 	}
 
 	.title {
-		font-size: 25px;
+		font-size: 22px;
 		margin: 15px 0;
 	}
 
