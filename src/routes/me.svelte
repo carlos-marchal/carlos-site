@@ -5,6 +5,7 @@
 	import YC from '$lib/me/yc.svelte';
 	import Skills from '$lib/me/skills.svelte';
 	import Footer from '$lib/me/footer.svelte';
+	import Languages from '$lib/me/languages.svelte';
 </script>
 
 <Intro />
@@ -12,4 +13,5 @@
 <Haddock />
 <YC />
 <Skills />
+<Languages />
 <Footer />
