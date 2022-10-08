@@ -29,6 +29,14 @@
 		line-height: 40px;
 	}
 
+	a {
+		color: inherit;
+	}
+
+	div a {
+		text-decoration: underline;
+	}
+
 	a.logo {
 		display: block;
 		height: 150px;
