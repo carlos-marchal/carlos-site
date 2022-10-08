@@ -91,6 +91,23 @@
 		margin-right: 45px;
 	}
 
+	@media (min-width: 900px) {
+		.gallery {
+			display: grid;
+			grid-auto-flow: column;
+			gap: 45px;
+			height: auto;
+		}
+
+		.gallery img {
+			width: 100%;
+		}
+
+		.gallery img:not(:last-child) {
+			margin-right: 0;
+		}
+	}
+
 	@media (min-width: 1400px) {
 		.main {
 			display: grid;
