@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import Logo from '$lib/logo.svelte';
+	import ButtonLink from '$lib/button-link.svelte';
 
 	const command = 'ls -ah';
 	let prompt = '';
@@ -31,23 +32,25 @@
 	<nav>
 		<ul>
 			<li style:animation-delay="1.5s">
-				<a href="/me"><span>About me</span><span>README.md</span></a>
+				<ButtonLink href="/me"><span>About me</span><span slot="hover">README.md</span></ButtonLink>
 			</li>
-			<li style:animation-delay="1.6s"><a href="/blog"><span>Blog</span><span>blog/</span></a></li>
-			<li style:animation-delay="1.7s" style:grid-column="span 1">
-				<a href="https://github.com/carlos-marchal">
-					<span>GitHub</span><span>.git</span>
-				</a>
+			<li style:animation-delay="1.6s">
+				<ButtonLink href="/blog"><span>Blog</span><span slot="hover">blog/</span></ButtonLink>
 			</li>
 			<li style:animation-delay="1.7s" style:grid-column="span 1">
-				<a href="https://linkedin.com/in/carlosmarchal">
-					<span>LinkedIn</span><span>linkedin -> https://linkedin.com/in/carlosmarchal</span>
-				</a>
+				<ButtonLink href="https://github.com/carlos-marchal">
+					<span>GitHub</span><span slot="hover">.git</span>
+				</ButtonLink>
+			</li>
+			<li style:animation-delay="1.7s" style:grid-column="span 1">
+				<ButtonLink href="https://linkedin.com/in/carlosmarchal">
+					<span>LinkedIn</span><span slot="hover">https://linkedin.com/in/carlosmarchal</span>
+				</ButtonLink>
 			</li>
 			<li style:animation-delay="1.8s">
-				<a href="https://en.haddock.app">
-					<span>haddock</span><span>haddock -> https://en.haddock.app</span>
-				</a>
+				<ButtonLink href="https://en.haddock.app">
+					<span>haddock</span><span slot="hover">https://en.haddock.app</span>
+				</ButtonLink>
 			</li>
 		</ul>
 	</nav>
@@ -97,42 +100,6 @@
 	li {
 		grid-column: span 2;
 		animation: appear 250ms linear backwards;
-	}
-
-	a {
-		--foreground: var(--white);
-		display: grid;
-		position: relative;
-		place-items: center;
-		height: 100%;
-		border: 2px solid var(--foreground);
-		border-radius: 50px;
-		font-size: 20px;
-		overflow: hidden;
-	}
-
-	a:hover {
-		text-decoration: none;
-	}
-
-	a > span:last-child {
-		position: absolute;
-		--foreground: var(--black);
-		--background: var(--white);
-		font: 16px 'Noto Sans Mono';
-		color: var(--foreground);
-		background: var(--background);
-		height: 100%;
-		width: 100%;
-		display: grid;
-		place-items: center;
-		text-align: center;
-		clip-path: inset(0 100% 0 0);
-		transition: 500ms clip-path;
-	}
-
-	a:hover > span:last-child {
-		clip-path: inset(0 0% 0 0);
 	}
 
 	@media (min-width: 900px) {

@@ -1,10 +1,18 @@
+<script>
+	import ButtonLink from '$lib/button-link.svelte';
+</script>
+
 <section>
 	<div class="intro">
 		<header>haddock</header>
 		<div>
 			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel risus in ante posuere
 			fermentum. Sed ut rhoncus sapien. Suspend.
-			<a href="https://en.haddock.app">Go to haddock</a>
+			<div class="cta">
+				<ButtonLink href="https://en.haddock.app">
+					Go to haddock<span slot="hover">https://en.haddock.app</span>
+				</ButtonLink>
+			</div>
 		</div>
 	</div>
 	<ul>
@@ -27,14 +35,10 @@
 		font-size: 52px;
 	}
 
-	a {
-		color: var(--white);
+	.cta {
 		margin: 20px 0;
-		padding: 15px 45px;
-		border-radius: 100px;
-		border: 1px solid currentColor;
-		display: block;
-		width: max-content;
+		width: 300px;
+		height: 80px;
 	}
 
 	ul {
