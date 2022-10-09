@@ -35,7 +35,9 @@
 				<ButtonLink href="/me"><span>About me</span><span slot="hover">README.md</span></ButtonLink>
 			</li>
 			<li style:animation-delay="1.6s">
-				<ButtonLink href="/blog"><span>Blog</span><span slot="hover">blog/</span></ButtonLink>
+				<ButtonLink disabled href="/blog"
+					><span>Blog // COMING SOON</span><span slot="hover">blog/</span></ButtonLink
+				>
 			</li>
 			<li style:animation-delay="1.7s" style:grid-column="span 1">
 				<ButtonLink href="https://github.com/carlos-marchal">

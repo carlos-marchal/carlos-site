@@ -1,8 +1,9 @@
 <script lang="ts">
 	export let href: string;
+	export let disabled = false;
 </script>
 
-<a {href}>
+<a class:disabled href={disabled ? undefined : href}>
 	<span><slot /></span><span><slot name="hover" /></span>
 </a>
 
@@ -17,6 +18,11 @@
 		border-radius: 50px;
 		font-size: 20px;
 		overflow: hidden;
+	}
+
+	a.disabled {
+		cursor: not-allowed;
+		opacity: 0.6;
 	}
 
 	a:hover {
@@ -37,6 +43,10 @@
 		text-align: center;
 		clip-path: inset(0 100% 0 0);
 		transition: 500ms clip-path;
+	}
+
+	a.disabled:hover > span:last-child {
+		clip-path: inset(0 100% 0 0);
 	}
 
 	@media (min-width: 900px) {
