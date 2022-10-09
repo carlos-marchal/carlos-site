@@ -46,7 +46,7 @@
 			</li>
 			<li style:animation-delay="1.7s" style:grid-column="span 1">
 				<ButtonLink href="https://linkedin.com/in/carlosmarchal">
-					<span>LinkedIn</span><span slot="hover">https://linkedin.com/in/carlosmarchal</span>
+					<span>LinkedIn</span><span slot="hover">/mnt/in/carlosmarchal</span>
 				</ButtonLink>
 			</li>
 			<li style:animation-delay="1.8s">
@@ -81,7 +81,7 @@
 
 	ul {
 		display: grid;
-		grid-auto-rows: 100px;
+		grid-auto-rows: 70px;
 		grid-template-columns: 1fr 1fr;
 		gap: 15px;
 		margin: 30px 0;
