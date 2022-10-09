@@ -8,6 +8,14 @@
 	import Languages from './languages.svelte';
 </script>
 
+<svelte:head>
+	<title>Carlos Marchal</title>
+	<meta
+		name="description"
+		content="Hi! I'm Carlos Marchal, a software engineer, and this is my personal site. Take 2 minutes to get to know me!"
+	/>
+</svelte:head>
+
 <Intro />
 <Timeline />
 <Haddock />
