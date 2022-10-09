@@ -63,7 +63,7 @@
 		content: '';
 		position: absolute;
 		width: 60%;
-		border: 1px solid var(--highlight);
+		border-top: 2px solid var(--highlight);
 	}
 
 	li span:first-child {
