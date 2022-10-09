@@ -8,7 +8,7 @@
 		<div>
 			<p>
 				My co-founders and I started haddock 3 years ago at the height of the pandemic. We wanted to
-				help restaurants take control of their bookkeeping. For lots of them, staying open or having
+				help restaurants take control of their businesses. For lots of them, staying open or having
 				to close came down to optimising to the last cent.
 			</p>
 			<p>Check out what we do in depth:</p>

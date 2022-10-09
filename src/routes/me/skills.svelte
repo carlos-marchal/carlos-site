@@ -34,7 +34,7 @@
 			progress: 0.7,
 			title: 'Product centered',
 			content:
-				'Features and changes need to have goals that can be tracked and measured. From OKRs to design decisions, a good developer always has the full picture in mind.'
+				'Features and changes need to have goals that can be tracked and measured. From OKRs to design decisions, a good developer always focuses on outcomes rather than outputs.'
 		}
 	];
 </script>
