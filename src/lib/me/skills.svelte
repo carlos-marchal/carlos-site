@@ -4,37 +4,37 @@
 			progress: 0.95,
 			title: 'Coding',
 			content:
-				"As many developers do, I started coding as a young teen. I've worked with all kinds of languages and paradigms: static types, dinamic types, compiled, interpreted, object oriented, functional... What's important is choosing the right tool for the job, and writing clean and idiomatic code."
+				"I've worked with all kinds of languages and paradigms: static types, dinamic types, compiled, interpreted, object oriented, functional... What's important is choosing the right tool for the job, and writing clean and idiomatic code."
 		},
 		{
 			progress: 0.9,
 			title: 'Fullstack',
 			content:
-				'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel varius ipsum. Mauris eros metus,'
+				"From writing CSS stylesheets to setting up VMs on cloud infrastructure, there are no parts of the tech stack I don't enjoy working with."
 		},
 		{
 			progress: 0.8,
 			title: 'Systems design',
 			content:
-				'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel varius ipsum. Mauris eros metus,'
+				'Having designed and successfuly launched haddock, I have confidence in my ability to turn an idea into technical specifications.'
 		},
 		{
 			progress: 0.7,
-			title: 'Behaviour driven',
+			title: 'Test driven',
 			content:
-				'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel varius ipsum. Mauris eros metus,'
+				"It is for good reason that all new languages ship with integrated testing solutions. You can't rely on behaviours you don't test for."
 		},
 		{
 			progress: 0.8,
-			title: 'Team worker',
+			title: 'Team work',
 			content:
-				'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel varius ipsum. Mauris eros metus,'
+				"While growing the product team at haddock from just me to 6 people, I discovered both my love for mentoring others and for learning from others' experience."
 		},
 		{
 			progress: 0.7,
 			title: 'Product centered',
 			content:
-				'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel varius ipsum. Mauris eros metus,'
+				'Features and changes need to have goals that can be tracked and measured. From OKRs to design decisions, a good developer always has the full picture in mind.'
 		}
 	];
 </script>
