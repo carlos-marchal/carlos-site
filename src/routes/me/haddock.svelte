@@ -21,7 +21,7 @@
 	</div>
 	<ul>
 		<li><span>1000</span><span>paying customers across Southern Europe and LATAM</span></li>
-		<li><span>$50k</span><span>of monthly recurring revenue</span></li>
+		<li><span>$65k</span><span>of monthly recurring revenue</span></li>
 		<li><span>$2M</span><span>in total external funding</span></li>
 		<li><span>35+</span><span>employees on the haddock team</span></li>
 	</ul>

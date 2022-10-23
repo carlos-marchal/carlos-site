@@ -15,11 +15,11 @@
 		},
 		{
 			start: 2020,
-			content: ['founded', { em: 'haddock' }, 'as', 'CTO and Co-Founder']
+			content: ['founded', { em: 'haddock' }, 'as', 'CTO and Tech Lead']
 		},
 		{
 			start: 2021,
-			content: ['worked at', { em: 'haddock' }, 'as', 'CTO and Co-Founder']
+			content: ['worked at', { em: 'haddock' }, 'as', 'CTO and Tech Lead']
 		}
 	];
 	let scrollProgress = 0;
